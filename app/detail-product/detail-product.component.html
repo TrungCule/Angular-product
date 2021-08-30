@@ -1,0 +1,31 @@
+<div *ngIf="product">
+
+<!--  <h2>{{product.name | uppercase}} Details</h2>-->
+<!--  <div><span>Prid: </span>{{product.id}}</div>-->
+<!--  <div>-->
+<!--    <label for="product-name">Product name: </label>-->
+<!--    <input id="product-name" [(ngModel)]="product.name" placeholder="Product-name"/>-->
+<!--    <p> Mô tả: {{product.mota}}</p>-->
+<!--  </div>-->
+<!--  <button (click)="goBack()">Back</button>-->
+  <table class="tb2" [cellPadding]="0" [cellSpacing]="0">
+    <tr>
+      <td colspan="2">{{product.name|uppercase}} Details </td>
+    </tr>
+    <tr>
+      <td>Product id</td>
+      <td>{{product.id}}</td>
+    </tr>
+    <tr>
+      <td>Product name</td>
+      <td><input type="text" [ngModel]="product.name" placeholder="...name..."></td>
+    </tr>
+    <tr>
+      <td>Mô tả</td>
+      <td>{{product.mota}}</td>
+    </tr>
+    <tr>
+      <td colspan="2"><button (click)="goBack()">Back</button></td>
+    </tr>
+  </table>
+</div>

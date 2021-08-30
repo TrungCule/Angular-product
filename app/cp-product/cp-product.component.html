@@ -1,0 +1,14 @@
+<table class="tb" [cellSpacing]="0" [cellPadding]="0">
+  <tr>
+    <th>STT</th>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>MOTA</th>
+  </tr>
+  <tr *ngFor="let product of products;let i=index" >
+    <td>{{i+1}}</td>
+    <td>{{product.id}}</td>
+    <td><a routerLink="/detail-product/{{product.id}}">{{product.name}}</a></td>
+    <td>{{product.mota}}</td>
+  </tr>
+</table>

@@ -1,0 +1,10 @@
+.tb2{
+  width: 300px;
+  margin-left: 100px;
+  text-align:center;
+  height: 130px;
+  margin-top: 20px;
+}
+.tb2 tr td{
+  border: solid 2px;
+}

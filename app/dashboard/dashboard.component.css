@@ -1,0 +1,13 @@
+.tb3{
+  border: solid;
+  width: 400px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.tb3 tr td{
+  border: solid 1px;
+}
+.tb3 tr th{
+  border: solid 1px;
+}

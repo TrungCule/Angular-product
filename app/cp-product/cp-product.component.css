@@ -1,0 +1,13 @@
+.tb{
+  border: solid;
+  width: 400px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.tb tr td{
+  border: solid 1px;
+}
+.tb tr th{
+  border: solid 1px;
+}
